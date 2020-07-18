@@ -1,0 +1,10 @@
+<?php
+Route::get('Programmer','ProgrammerController@index');
+Route::get('Programmer/activeOrders','ProgrammerController@activeOrders');
+Route::get('Programmer/Order/{id}','ProgrammerController@OrderInfo');
+Route::get('Programmer/serviceWTOseguimiento','ProgrammerController@serviceWTOseguimiento');
+Route::get('Programmer/UserTracing','ProgrammerController@UserTracing');
+Route::get('Programmer/AuditPanel','ProgrammerController@AuditPanel');
+Route::get('Programmer/serviceWTOaudit','ProgrammerController@serviceWTOaudit');
+Route::get('Programmer/PanelControl/{id}','ProgrammerController@ControlPanel');
+?>
